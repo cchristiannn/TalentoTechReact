@@ -1,0 +1,68 @@
+:root {
+    --main-green: #005533;
+    --dark-green: #20420ab7; 
+    --background-color: #434141;
+    --card-bg: #fff;
+    --text-light: #120404;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-light);
+   
+}
+
+header {
+    background-color: var(--main-green);
+    color: var(--text-light);
+}
+
+h1,
+h3 {
+    color: var(--main-green);
+}
+
+.card {
+    background-color: var(--card-bg);
+    color: var(--text-light);
+    border: 1px solid var(--main-green);
+}
+
+.card-title {
+    color: var(--main-green);
+}
+
+.btn-primary {
+    background-color: var(--main-green);
+    border-color: var(--main-green);
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: var(--dark-green);
+    border-color: var(--dark-green);
+}
+
+.list-group-item {
+    background-color: var(--card-bg);
+    color: var(--text-light);
+    border: 1px solid #444;
+}
+
+select.form-select {
+    background-color: var(--card-bg);
+    color: var(--text-light);
+    border: 1px solid var(--main-green);
+}
+
+select.form-select:focus {
+    border-color: var(--main-green);
+    box-shadow: var(--dark-green);
+    background-color: var(--main-green);
+    color: var(--card-bg);
+}
+
+option {
+    background-color: var(--main-green);
+    color: var(--card-bg);
+}
